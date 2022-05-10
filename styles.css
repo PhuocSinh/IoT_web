@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.card-title {
+    font-size: 40px;
+    font-weight: 900;
+    color: crimson;
+}
+.card-body {
+    display: flex;
+
+}
+.card-content {
+    width: 300px;
+}
+.card-content img {
+    width: 100%;
+}
+.card-controll {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.dht11 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.temp {
+    color: rgb(245, 96, 37);
+}
+.humi {
+    color: blue;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="card room1">
+        <div class="card-title">Arduino 1</div>
+        <div class="card-body">
+            <div class="led led01">
+                <div class="card-content">
+                    <img src="./img/lamp_off.png" alt="">
+                </div>
+                <div class="card-controll">
+                    <button class="on">ON</button>
+                    <button class="off">OFF</button>
+                </div>
+            </div>
+            <div class="led led02">
+                <div class="card-content">
+                    <img src="./img/lamp_off.png" alt="">
+                </div>
+                <div class="card-controll">
+                    <button class="on">ON</button>
+                    <button class="off">OFF</button>
+                </div>
+            </div>
+            <div class="led led03">
+                <div class="card-content">
+                    <img src="./img/lamp_off.png" alt="">
+                </div>
+                <div class="card-controll">
+                    <button class="on">ON</button>
+                    <button class="off">OFF</button>
+                </div>
+            </div>
+        </div>
+        <div class="dht11">
+            <div class="temp">Nhiệt độ: <span>12</span></div>
+            <div class="humi">Độ ẩm: <span>85</span>%</div>
+            
+        </div>
+    </div>
+    <div class="card room2">
+        <div class="card-title">Arduino 2</div>
+        <div class="card-body">
+            <div class="led led01">
+                <div class="card-content">
+                    <img src="./img/lamp_off.png" alt="">
+                </div>
+                <div class="card-controll">
+                    <button class="on">ON</button>
+                    <button class="off">OFF</button>
+                </div>
+            </div>
+            <div class="led led02">
+                <div class="card-content">
+                    <img src="./img/lamp_off.png" alt="">
+                </div>
+                <div class="card-controll">
+                    <button class="on">ON</button>
+                    <button class="off">OFF</button>
+                </div>
+            </div>
+            <div class="led led03">
+                <div class="card-content">
+                    <img src="./img/lamp_off.png" alt="">
+                </div>
+                <div class="card-controll">
+                    <button class="on">ON</button>
+                    <button class="off">OFF</button>
+                </div>
+            </div>
+        </div>
+        <div class="dht11">
+            <div class="temp">Nhiệt độ: <span>32</span></div>
+            <div class="humi">Độ ẩm: <span>32</span>%</div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
